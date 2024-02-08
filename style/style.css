@@ -1,5 +1,5 @@
 body {
-	background-color: #f2e8ef;
+	background: #f9d4d5;
 	font-family: sans-serif;
 }
 
@@ -26,7 +26,11 @@ select {
 .container {
 	max-width: 600px;
 	margin: 60px auto;
-	background: white;
+	background: radial-gradient(
+		circle at 10% 20%,
+		rgb(248, 219, 219) 0%,
+		rgb(229, 248, 250) 90%
+	);
 	padding: 30px;
 	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 	border-radius: 10px;
